@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: lightskyblue;
+    background-color: #255EE9;
     padding: 10px 0;
 }
 
@@ -121,9 +121,9 @@ header {
 
 /* UTILITY */
 
-.bg-blue {
+/* .bg-blue {
     background-color: darkblue;
-}
+} */
 
 .bg-gray{
     background-color: lightgray;
@@ -177,12 +177,13 @@ header {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 .unstyled-list li a {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-weight: 700;
 }
 
 .py-10 {
@@ -218,4 +219,10 @@ header {
 .btn-white {
     background-color: white;
     
+}
+
+.bg-jumbo {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
