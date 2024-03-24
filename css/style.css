@@ -48,34 +48,34 @@ header {
 
 .col60 {
     width: 60%;
-    height: 250px;
+    /* height: 250px;
     background-color: rgba(28, 107, 255, 0.692);
     border: 1px solid black;
-    border-style: dashed;
+    border-style: dashed; */
 }
 
 .col40 {
     width: 40%;
-    height: 250px;
+    /* height: 250px;
     background-color: pink;
     border: 1px solid black;
-    border-style: dashed;
+    border-style: dashed; */
 }
 
 .col-big {
     width: 100%;
-    height: 600px;
+    /* height: 600px;
     background-color: green;
     border: 1px solid black;
-    border-style: dashed;
+    border-style: dashed; */
 }
 
 .col20 {
     width: calc(100%/6*2);
-    height: 300px;
-    background-color: rgb(255, 72, 130);
-    border: 1px solid black;
-    border-style: dashed;
+    /* height: 300px;
+    background-color: rgb(255, 72, 130); */
+    border-bottom: 1px solid rgb(39, 126, 249);
+    
 }
 
 .col10 {
@@ -86,33 +86,33 @@ header {
     border-style: dashed;
 }
 
-.top-footer{
+/* .top-footer{
     border-bottom: 1px solid white;
     padding: 15px 0 50px 0;
-}
+} */
 
 .bottom-footer {
     background-color: green;
-    padding-top: 15px;
+    padding: 20px 50px;
 }
 
 .col-footer {
     width: 100%;
-    height: 50px;
+    /* height: 50px;
     background-color: rgb(128, 255, 232);
     border: 1px solid black;
-    border-style: dashed;
+    border-style: dashed; */
  
 }
 
 
 .button-footer {
     width: 60px;
-    height: 20px;
+    /* height: 20px;
     background-color: pink;
     border: 1px solid black;
     border-style: dashed; 
-    text-align: center;
+    text-align: center; */
 }
 
 
@@ -191,12 +191,14 @@ header {
     padding: 20px 0;
 }
 
-.py-40 {
-    padding: 40px 0;
-}
+
 
 .py-50 {
     padding: 50px 0;
+}
+
+.py-90 {
+    padding: 90px 0;
 }
 
 .logo-header {
@@ -211,13 +213,24 @@ header {
     text-align: center;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
 /* STYLE DISCORD */
 
 .btn {
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
     border-radius: 30px;
     
+}
+
+.btn-jumbo {
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 30px;
 }
 
 .btn-white {
@@ -230,6 +243,13 @@ header {
     color: white;
     
    
+}
+
+.btn-blue {
+    background-color: rgba(135, 148, 250, 0.773);
+    color: white;
+    font-size: 15px;
+
 }
 
 .bg-jumbo {
@@ -264,4 +284,75 @@ header {
 
 .arrow {
     margin-right: 5px;
+}
+
+.title-item {
+    text-align: left;
+    font-weight: 700;
+    color: black;
+    font-size: 50px;
+    padding: 0 90px 20px 0;
+    
+}
+
+.p-item {
+    text-align: left;
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 90px 0 0;
+}
+
+.title-big {
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    font-size: 50px;
+    padding: 40px 0 20px 0;
+}
+
+.title-big2 {
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    font-size: 30px;
+    padding: 0 0 40px 0;
+}
+
+.p-big {
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 60px;
+}
+
+.star {
+    width: 50%;
+}
+
+.title-footer {
+    text-align: left;
+    color: rgba(135, 148, 250, 0.773);
+    font-weight: 700;
+    font-size: 30px;
+    padding: 90px 90px 20px 0;
+    margin-bottom: 20px;
+    
+}
+
+.text-ita {
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.flag {
+    width: 30px;
+    height: 20px;
+    vertical-align: middle;
 }
