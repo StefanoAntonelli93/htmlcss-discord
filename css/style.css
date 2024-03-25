@@ -175,8 +175,6 @@ header {
     padding: 20px 0;
 }
 
-
-
 .py-50 {
     padding: 50px 0;
 }
@@ -375,4 +373,12 @@ header {
 
 .trasform {
     transform: scaleY(-1);
+}
+
+.space-col-right {
+    padding: 0 0 0 40px;
+}
+
+.space-col-left {
+    padding: 0 40px 0 0;
 }
