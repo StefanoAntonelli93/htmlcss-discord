@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 header {
@@ -274,7 +274,6 @@ header {
 
 .p-jumbo {
     text-align: center;
-    font-weight: 600;
     color: white;
     font-size: 20px;
     line-height: 30px;
@@ -305,7 +304,6 @@ header {
 
 .p-item {
     text-align: left;
-    font-weight: 600;
     color: black;
     font-size: 20px;
     line-height: 30px;
@@ -330,7 +328,6 @@ header {
 
 .p-big {
     text-align: center;
-    font-weight: 600;
     color: black;
     font-size: 20px;
     line-height: 30px;
